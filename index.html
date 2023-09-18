@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Survey_form</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+      <h1 id="title">Plantation Campaign Survey</h1>
+      <p id="description">Thank you for taking your time planting a tree.</p>
+      <form id="survey-form">
+         
+            <label for="Name"> Name: <input id="Name" name="name" type="text" placeholder="Enter your name" /></label>
+            <label for="email">Email: <input id="email" name="email" type="email" placeholder="Enter your email" /></label>
+            <label for="age">Age (Optional): <input id="age" type="number" placeholder="Age" name="age" min="10" max="120" /></label>
+            <label for="drop-down">What kind of plant did you plant?
+               <select id="drop-down" name="drop-down" >
+                  <option value="">Select one</option>
+                  <option value="1">Herbs</option>
+                  <option value="2">Shrubs</option>
+                  <option value="3">Tree</option>
+                  <option value="4">Flowering-plants</option>
+               </select>
+            </label>
+            <label for="radio">Would you encourage your friend to plant?
+               <label for="yes" class="block">
+                  <input id="yes" type="radio" name="radio" />Yes,Definitely
+               </label>
+               <label for="Maybe" class="block">
+                  <input id="Maybe" type="radio" name="radio"/>Maybe
+               </label>
+               <label for="Notsure" class="block">
+                  <input id="Notsure" type="radio" name="radio" />Not sure
+               </label>
+            </label>
+            <label for="checkbox" >
+               What would you like to see improved? 
+               <label for="improvement" class="block">
+               <input type="checkbox" id="improvement" name="improvement" value="Tree species selection" > Tree species selection
+               </label> 
+               <label for="Involvement" class="block">
+                  <input type="checkbox" id="Involvement" name="improvement" value="Involvement" > Community Involvement
+                  </label>
+                  <label for="Monitoring" class="block">
+                     <input type="checkbox" id="Monitoring" name="improvement" value="Monitoring" > Long term monitoring
+                     </label>
+            </label>
+            
+            <label for="comments">Any comments or suggestions?
+               <textarea id="comments" name="bio" rows="7" cols="30" placeholder="Enter your comment here..."></textarea>
+        
+         <input type="submit" value="Submit" />
+      </form>
+   
+</body>
+</html>

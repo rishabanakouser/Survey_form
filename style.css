@@ -1,0 +1,94 @@
+*{
+   margin: 0;
+   padding:0;
+}
+body{
+   color:rgb(173, 167, 167);
+   font-family: 'Roboto', sans-serif;
+   background-image: url(./nature.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+  
+}
+
+h1,p{
+   margin:10px;
+   text-align: center;
+   
+}
+p{
+   margin: 10px;
+}
+.block{
+   display: block;
+   
+}
+::placeholder {
+   color: black;
+ }
+label{
+   padding-left:0.5rem;
+}
+form{
+   
+   margin:0 auto;
+   max-width:500px;
+   min-width:300px;
+   width:60vw;
+   background-color: rgba(0,0,0,0.4);
+
+   box-shadow: 10 10 5px black;
+   
+   
+}
+
+input[type="submit"] {
+   display: block;
+   width: 60%;
+   margin: 0 auto;
+   height:2em;
+   font-size:1.1rem;
+   background-color: #e0e8e2;
+   border-color: white;
+   min-width:300px;
+   margin:1em auto;
+   border-radius: 10px;
+ }
+ input[type="submit"]:hover{
+   background-color: #161817;
+   color: #367457;
+   cursor: pointer;
+ }
+
+input,#drop-down{
+   width: 90%;
+   height:1rem;
+   margin:1em;
+}
+#drop-down{
+   width: 90%;
+   height:1.3rem;
+   line-height:5px;
+}
+textarea{
+   width: 90%;
+   margin:1em;
+}
+input[type="radio"] {
+   width: unset;
+   display: inline-block;
+   vertical-align: middle;
+ }
+ input[type="checkbox"]{
+   width: unset;
+   
+}
+span{
+   display: block;
+}
+.inline{
+   display: inline;
+   
+}
